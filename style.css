@@ -1,3 +1,13 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+    background: black;
+    text-align: center;
+}
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
@@ -7,6 +17,10 @@
 
 #jumbotron-header {
     text-align: center;
+    background: transparent;
+    color: #0F0;
+    font-family: matrix;
+    font-size: 100px;
 }
 
 .card{
@@ -28,4 +42,36 @@
 .card {
     text-align: center;
     border: none;
+    background: transparent;
 }
+
+canvas{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+}
+.row{
+    background: transparent;
+}
+.col{
+    background: transparent;
+}
+.card-body{
+    background: black;
+    color: #0F0;
+
+}
+.jumbotron{
+    background: transparent;
+}
+@font-face {
+    font-family: 'matrix';
+    font-style: normal;
+    font-weight: normal;
+    src: local('matrix'), url('matrix.woff') format('woff');
+}
+.btn{
+    background: #00FF00;
+}
+
